@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+}
