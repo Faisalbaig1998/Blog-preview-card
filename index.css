@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,23 +27,60 @@ body {
 }
 
 .card img {
+  margin-top: 15px;
   width: 90%;
   height: auto;
   border-radius: 10px;
 }
 
-.author {
-  width: 90%;
-  height: 50px;
-  border: 2px solid red;
-  align-self: center;
-}
-
 .description {
+  font-family: Figtree;
+  width: 90%;
   height: 50%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #f5d04e;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.short-desc {
+  color: grey;
+}
+
+.author {
+  width: 50%;
+  height: 50px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  border: 2px solid red;
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.author span {
+  font-weight: 800;
+  margin: 0;
+  border: 2px solid red;
 }
