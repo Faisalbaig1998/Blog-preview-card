@@ -93,3 +93,11 @@ body {
   cursor: pointer;
   color: #f5d04e;
 }
+
+@media only screen and (max-width: 375px) {
+  .card{
+    width: 90%;
+  }
+
+
+}
