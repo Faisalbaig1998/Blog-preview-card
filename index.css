@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-.card img {
+.card-img {
   margin-top: 15px;
   width: 90%;
   height: auto;
@@ -66,14 +66,14 @@ body {
 .author {
   width: 50%;
   height: 50px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.author img {
-  border: 2px solid red;
+.author-img {
+  /* border: 2px solid red; */
   width: 40px;
   height: auto;
   border-radius: 50%;
@@ -82,5 +82,14 @@ body {
 .author span {
   font-weight: 800;
   margin: 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+.title {
+  font-weight: 800;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #f5d04e;
 }
