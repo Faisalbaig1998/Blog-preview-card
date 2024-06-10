@@ -15,7 +15,8 @@ body {
 
 .card {
   width: 30%;
-  height: 500px;
+  /* height: 500px; */
+  height: 80%;
   background-color: white;
   border-radius: 25px;
   border: 1px solid black;
@@ -97,7 +98,6 @@ body {
 @media only screen and (max-width: 375px) {
   .card{
     width: 90%;
+    height: auto;
   }
-
-
 }
