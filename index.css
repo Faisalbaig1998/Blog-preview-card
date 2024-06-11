@@ -14,9 +14,9 @@ body {
 }
 
 .card {
-  width: 30%;
-  /* height: 500px; */
-  height: 80%;
+  width: 400px;
+  height: 500px;
+  /* height: 80%; */
   background-color: white;
   border-radius: 25px;
   border: 1px solid black;
@@ -61,7 +61,8 @@ body {
 }
 
 .short-desc {
-  color: grey;
+  color: hsl(0, 0%, 50%);
+  font-weight: 400;
 }
 
 .author {
@@ -96,8 +97,8 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
-  .card{
+  .card {
     width: 90%;
-    height: auto;
+    height: 500px;
   }
 }
