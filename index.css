@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  width: 400px;
+  max-width: 400px;
   height: 500px;
   /* height: 80%; */
   background-color: white;
@@ -100,5 +100,11 @@ body {
   .card {
     width: 90%;
     height: 500px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .card {
+    height: 90%;
   }
 }
