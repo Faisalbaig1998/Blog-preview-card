@@ -104,7 +104,17 @@ body {
 
 @media only screen and (orientation: landscape) {
   .card {
-    width: 350px;
+    min-width: 350px;
     max-height: 500px;
+  }
+}
+
+@media only screen and (max-height: 412px) {
+  .card {
+    height: 90%;
+    width: 30%;
+  }
+  body {
+    height: 100%;
   }
 }
